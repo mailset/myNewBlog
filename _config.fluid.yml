@@ -1025,6 +1025,12 @@ links:
       avatar: "https://www.zidusama.xyz/wp-content/uploads/2024/02/RainSky_head.jpg"
     }
     - {
+      title: "Huang FTS427's website",
+      intro: "杂乱无章的生活, 杂乱无章的 blog",
+      link: "https://www.fts427.top",
+      avatar: "https://github.com/FTS427.png"
+    }
+    - {
       title: "Arch Linux 交流群",
       intro: "欢迎Archlinux爱好者进入，不推荐Manjaro",
       link: "https://qm.qq.com/q/gmQcCKNArK",
