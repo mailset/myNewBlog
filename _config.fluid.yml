@@ -962,6 +962,7 @@ about:
     - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/435654748", tip: "哔哩哔哩" }
     - { class: "iconfont icon-TwitterX", link: "https://x.com/mail_set114514", tip: "X" }
     - { class: "iconfont icon-steam", link: "https://steamcommunity.com/profiles/76561199177649760/", tip: "Steam"}
+    - { class: "iconfont icon-mail", link: "mailto:mail_set@mailset.top", tip: "email"}
     - { class: "iconfont icon-wechat-pay", qrcode: "/img/WeChatPay.png" }
     - { class: "iconfont icon-alipay", qrcode: "/img/AliPay.jpg" }
 
@@ -1037,8 +1038,8 @@ links:
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links
   custom:
-    enable: false
-    content: '<hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：mail_set的铺子</li><li>简介：只是一个博客</li><li>链接：https://www.mailset.top</li><li>图片：https://www.mailset.top/img/favicon.png</li></ul>'
+    enable: true
+    content: '<hr><p>在下方留言或向我发邮件来申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：mail_set的铺子</li><li>简介：只是一个博客</li><li>链接：https://www.mailset.top</li><li>图片：https://www.mailset.top/img/favicon.png</li></ul>'
 
   # 评论插件
   # Comment plugin
