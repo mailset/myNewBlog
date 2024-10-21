@@ -235,7 +235,7 @@ custom_js: /js/custom.js
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css: //at.alicdn.com/t/c/font_4432957_119nw4k1ecng.css
+custom_css: //at.alicdn.com/t/c/font_4432957_qi6v6c2dwi.css
 
 # 网页访问统计
 # Analysis of website visitors
@@ -964,6 +964,7 @@ about:
     - { class: "iconfont icon-steam", link: "https://steamcommunity.com/profiles/76561199177649760/", tip: "Steam"}
     - { class: "iconfont icon-mail", link: "mailto:mail_set@mailset.top", tip: "email"}
     - { class: "iconfont icon-wechat-pay", qrcode: "/img/WeChatPay.png" }
+    - { class: "iconfont icon-reward", qrcode: "/img/WeChatReward.png" }
     - { class: "iconfont icon-alipay", qrcode: "/img/AliPay.jpg" }
 
 
