@@ -65,17 +65,19 @@ code:
       # See: https://highlightjs.org/static/demo/
       style: "atom-one-light"
       style_dark: "atom-one-dark"
+      preprocess: false
+      bg_color: false
 
     prismjs:
       # 在下方链接页面右侧的圆形按钮挑选 style 填入，也可以直接填入 css 链接
       # Select the style button on the right side of the link page, you can also set the CSS link
       # See: https://prismjs.com/
-      style: "default"
-      style_dark: "tomorrow night"
+      style: "prism-one-light"
+      style_dark: "prism-one-dark"
 
       # 设为 true 高亮将本地静态生成（但只支持部分 prismjs 插件），设为 false 高亮将在浏览器通过 js 生成
       # If true, it will be generated locally (but some prismjs plugins are not supported). If false, it will be generated via JS in the browser
-      preprocess: true
+      preprocess: false
 
 # 一些好玩的功能
 # Some fun features
@@ -225,7 +227,7 @@ color:
 # Font
 font:
   font_size: 16px
-  font_family:
+  font_family: 'MiSans Normal'
   letter_spacing: 0.02em
   code_font_size: 85%
 
@@ -1083,7 +1085,7 @@ static_prefix:
 
   bootstrap: https://lib.baomitu.com/twitter-bootstrap/4.6.1/
 
-  prismjs: https://lib.baomitu.com/prism/1.29.0/
+  prismjs: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/prism/9000.0.1/prism.js
 
   tocbot: https://lib.baomitu.com/tocbot/4.20.1/
 

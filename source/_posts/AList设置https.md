@@ -1,6 +1,8 @@
 ---
 title: AList设置https
 date: 2024-02-05 19:00:00
+categories:
+    - 网盘
 tags:
     - 技术
     - 网盘
@@ -47,7 +49,7 @@ tags:
 
 大功告成！使用下面的命令重新启动AList
 
-```bash
+```shell
 systemctl restart alist
 ```
 

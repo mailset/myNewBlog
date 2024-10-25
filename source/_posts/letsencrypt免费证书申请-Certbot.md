@@ -1,6 +1,8 @@
 ---
 title: letsencrypt免费证书申请--Certbot
 date: 2024-02-05 18:00:00
+categories:
+    - 博客
 tags:
     - 技术
     - 博客
@@ -12,7 +14,7 @@ tags:
 
 如果你用的是ArchLinux，那么可以通过下面的命令直接安装
 
-```bash
+```shell
 sudo pacman -S certbot
 ```
 
@@ -22,7 +24,7 @@ sudo pacman -S certbot
 
 打开终端，输入下面的命令（适用于Linux，Windows用户请去掉sudo）
 
-```bash
+```shell
 sudo certbot certonly -d "你的域名" --manual --preferred-challenges dns-01
 ```
 
