@@ -458,7 +458,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.jpg
+  banner_img: /img/default.webp
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -530,7 +530,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.jpg
+  banner_img: /img/default.webp
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -893,7 +893,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.jpg
+  banner_img: /img/default.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -904,7 +904,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.jpg
+  banner_img: /img/default.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -933,7 +933,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.jpg
+  banner_img: /img/default.webp
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -950,7 +950,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.jpg
+  banner_img: /img/default.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/favicon.png
@@ -962,10 +962,10 @@ about:
     - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/435654748", tip: "哔哩哔哩" }
     - { class: "iconfont icon-TwitterX", link: "https://x.com/mail_set114514", tip: "X" }
     - { class: "iconfont icon-steam", link: "https://steamcommunity.com/profiles/76561199177649760/", tip: "Steam"}
-    - { class: "iconfont icon-mail", link: "mailto:mail_set@mailset.top", tip: "email"}
-    - { class: "iconfont icon-wechat-pay", qrcode: "/img/WeChatPay.png" }
-    - { class: "iconfont icon-reward", qrcode: "/img/WeChatReward.png" }
-    - { class: "iconfont icon-alipay", qrcode: "/img/AliPay.jpg" }
+    - { class: "iconfont icon-mail", link: "mailto:mail_set@mailset.top"}
+    - { class: "iconfont icon-wechat-pay", qrcode: "/img/WeChatPay.webp"}
+    - { class: "iconfont icon-reward", qrcode: "/img/WeChatReward.webp"}
+    - { class: "iconfont icon-alipay", qrcode: "/img/AliPay.webp"}
 
 
 #---------------------------
@@ -976,7 +976,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.jpg
+  banner_img: /img/default.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -987,7 +987,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.jpg
+  banner_img: /img/default.webp
   banner_img_height: 85
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
@@ -1001,7 +1001,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.jpg
+  banner_img: /img/default.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
