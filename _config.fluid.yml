@@ -20,6 +20,8 @@
 # Icon for browser tab
 favicon: /img/favicon.png
 
+rss: /atom.xml
+
 # 用于苹果设备的图标
 # Icon for Apple touch
 apple_touch_icon: /img/favicon.png
