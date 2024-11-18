@@ -6,9 +6,7 @@ tags:
   - 代码
 ---
 
-刚刚提交git的时候发现`git commit -S`卡了很长时间然后失败了，遂上网搜了一下，但未能找到准确的解决方案
-
-但是我自己在使用网上给出的`gpg-agent-daemon`命令时，发现`gpg-agent`命令可以运行，于是写下这篇随笔
+刚刚提交git的时候发现`git commit -S`卡了很长时间，接着失败了，但是笔者探索出来了一个解决方案
 
 笔者用的是Windows 11系统，GnuPG版本为`2.4.5`
 
@@ -30,17 +28,19 @@ fatal: failed to write commit object
 
 ## 解决
 
-我发现的解决方法很简单，运行：
+我发现的解决方法很简单，新开一个终端，运行：
 
 ```bash
-gpg-agent
+gpg-agent --daemon
 ```
 
 输出：
 
 ```text
-gpg-agent[pid]: gpg-agent running and available
+gpg-agent[pid]: gpg-agent (GnuPG) 2.4.5 started
 ```
+
+这条命令将会卡住终端，切换到原来的终端上继续commit
 
 再次commit，成功:
 
