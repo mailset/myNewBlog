@@ -1045,10 +1045,22 @@ links:
       avatar: "https://byte.beer/myself.webp"
     }
     - {
+      title: "沉渊覆雪 - 繁华不复",
+      intro: "愿走向深渊的旅途里可以遇见无限美好",
+      link: "https://0o0.codebeg.page/",
+      avatar: "https://0o0.codeberg.page/img/avatar_hu_d4c2d797ac3a9b7.png"
+    }
+    - {
+      title: "Hill233的小窝",
+      intro: "只是一个普普通通的 blog 罢了",
+      link: "https://suki.ink/",
+      avatar: "https://q.qlogo.cn/g?b=qq&nk=1851466055&s=640"
+    }
+    - {
       title: "Arch Linux 交流群",
       intro: "欢迎Archlinux爱好者进入，不推荐Manjaro",
       link: "https://qm.qq.com/q/gmQcCKNArK",
-      avatar: "/img/favicon.png"
+      avatar: "/img/qfavi.webp"
     }
 
   # 当成员头像加载失败时，替换为指定图片
